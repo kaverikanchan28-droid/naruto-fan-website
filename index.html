@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>naruto fansite</title>
+        <style>
+            body{
+                font-family:Arial, Helvetica, sans-serif;
+                background-color:rgb(246, 234, 211);
+                color:black;
+               
+            }
+            header{
+                background-color: black;
+                color:rgb(244, 138, 8);
+                padding:20px;
+                text-align:center;
+            }
+            nav{
+                background-color:rgb(255, 77, 0);
+                padding:15px;
+                text-align:center;
+            }
+            nav a{
+                color:white;
+                text-decoration: none;
+                font-size:20px;
+                font-weight:bolder;
+                margin:0 20px;
+            }
+            nav a:hover{
+                color:black;
+            }
+            section{
+                padding:30px;
+                max-width: 1000px;
+                margin:auto;
+            }
+            h2{
+                color:orangered;
+                border-bottom:3px solid orange;
+                padding-bottom:4px;
+            }
+            .character{
+                display:grid;
+                grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+                gap: 100px;
+            }
+            .char-pr{
+                background-color:white;
+                padding:20px;
+                border-radius: 10px;
+                box-shadow:0 0 15px rgba(0,0,0,0.25);
+            }
+            .char-pr:hover{
+                background-color: rgb(251, 217, 133);
+            }
+            footer{
+                background-color: black;
+                color:white;
+                padding:30px;
+                text-align: center;
+                margin-top: 30px;
+            }
+            section button{
+                border-radius: 55px;
+                border-color: rgb(255, 98, 0);
+                border-width: 4px;
+                cursor: pointer;
+                background-color:rgb(246, 234, 211) ;
+                
+            }
+            section button img{
+                height:50px;
+                padding:20px;
+            }
+            section button:hover{
+                 opacity: 0.45;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="logo.jpg">
+            <h1>🍥 Naruto Fan Website 🍥</h1>
+            <p>Welcome to the world of ninjas!</p>
+        </header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#characters">Characters</a>
+            <a href="#villages">Villages</a>
+        </nav>
+        <section id="about">
+            <h2>About Naruto</h2>
+            <p>
+            Naruto is a globally popular
+             Japanese manga and anime franchise about
+             naruto uzumaki,a mischievious but determined young ninja from 
+             the Hidden Leaf Village who dreams of becoming the 
+             village leader(Hokage) to gain respect and acceptance,while navigating
+             a world of shinobi battels,friendship,lossand overcoming prejudice
+             as a vessel for a powerful demon fox.
+             This series is created by Masashi Kishimoto.It is known for its action,
+             comedy,themes of perserverance, and its vast universe of ninjas and special techniques.
+             </p>
+             <button onclick="window.location.href='https://youtu.be/uMyuSHewmks?si=Ivl4QsvMWuUjYcRb'">
+                <img src="play button.png">
+             </button>
+        </section>
+        <section id="characters">
+            <h2>Characters</h2>
+            <div class="character">
+                <div class="char-pr">
+                    <h3>Naruto Uzumaki</h3>
+                    <img style="height:350px;" src="naruto uzumaki.avif">
+                </div>
+                <div  class="char-pr">
+                    <h3>Sasuke Uchiha</h3>
+                    <img style="height:350px;" src="sasuke uchiha.jpg">
+                </div>
+                <div  class="char-pr">
+                    <h3>Sakura Haruno</h3>
+                    <img style="height:250px;" src="sakura.webp">
+                </div>
+                <div  class="char-pr">
+                    <h3>Kakashi Hatake</h3>
+                    <img style="height:300px;" src="Kakashi.webp">
+                </div>
+                <div  class="char-pr">
+                    <h3>Obito Uchiha</h3>
+                    <img style="height:300px;" src="Obitounmasked.png">
+                </div>
+                <div  class="char-pr">
+                    <h3>Nagato</h3>
+                    <img style="height:200px;" src="nagato.jpg">
+                </div>
+                <div  class="char-pr">
+                    <h3>Madara Uchiha</h3>
+                    <img style="height:330px;" src="madara.webp">
+                </div>
+            </div>
+        </section>
+        <section id="villages">
+            <h2>Villages</h2>
+            <ul>
+               <li>Konohagakure</li>
+               <li>Sunagakure</li>
+               <li>Kirigakure</li>
+               <li>Kirigakure</li>
+               <li>Kumogakure</li>
+               <li>Iwagakure</li>
+               <li>Amegakure</li>
+               <li>Otogakure</li>
+            </ul>
+        </section>
+        <footer>
+            <p>CONTACT INFO</p>
+            <P>Contact Number:+91 9204370062</P>
+            <p>Email:kaverikanchan28@gmail.com</p>
+            <p>&copy 2025 Naruto Fan Website | Data and Images used belong to  their owner</p>
+        </footer>
+    </body>
+</html>
